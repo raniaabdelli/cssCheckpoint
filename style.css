@@ -1,0 +1,89 @@
+h2{font-family: 'Roboto', sans-serif;
+
+}
+p{
+    border: 1px solid white;
+}
+h2:hover{color:pink;}
+h4{ color: aliceblue;}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+a{
+    border:1px solid lawngreen;
+    display:inline;
+    color:aliceblue;
+width:1000;
+height:1000;
+}
+
+body{
+    background-image:url("./a.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    color: blueviolet;
+    align-content:center;
+    border-end-end-radius:inherit;
+    text-decoration: underline;
+    margin-top:50px;
+    margin-bottom: 50px;
+    padding: 200px;
+font-size: medium;
+margin-top: 2px;
+background-color: bisque;
+font-family:Roboto;
+line-height: 30px;
+word-spacing: 10px;
+letter-spacing: 10px;
+padding:10px;
+}
+ul{
+    display:block;
+}
+.vertical{ list-style-type: none;
+    margin: 10;
+    padding: 10;
+    overflow: hidden;}
+#First-title {
+    color:blueviolet;
+position:sticky;
+top:0;}
+footer{
+    position:fixed;
+    bottom:0;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: brown;
+    animation: coloring 5s 10;
+   
+}
+@keyframes coloring {
+    0%{ background-color: rgb(255, 145, 0);}
+    100%{ background-color: blueviolet;}
+    
+
+    
+}
+.parent{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+    overflow: hidden;
+}
+.child{
+    width: 10px;
+    height: 10px;
+    background-color: bisque;
+    position: absolute;
+    top:50px;
+    left:10px;
+}
